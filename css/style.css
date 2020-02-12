@@ -1,0 +1,454 @@
+
+
+/*
+====Index====
+1. Header
+2. Home
+3. How it work
+4. Discover a project
+5. Blog
+6. Fing out more
+7. Footer
+*/
+
+/* Global css*/
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    color: #FFFFFF;   
+}
+h2{
+  font-size: 33px;
+  color: #FFFFFF;
+  padding: 0px 14px;
+}
+.h2-cst{
+   font-size: 33px;
+  color: #FFFFFF;
+  padding: 0px 14px;
+}
+}
+h3{
+  font-size: 33px;
+  color: #333333;
+}
+h4{
+  font-size: 15px;
+  color: #333333;
+  line-height: 30px;
+}
+h5{
+  font-size: 32px;
+  color: #28282E;
+  padding-bottom: 30px;
+  line-height: 50px;
+}
+h6{
+  font-size: 19px;
+  color: #747474;
+  padding: 0px 14px;
+}
+p{
+  font-size: 15px;
+  color: #fff;
+  line-height: 30px;
+}
+.cstm-btn-one{
+   background:transparent;
+   font-size: 20px;
+   color: #fff;
+   padding: 7px 32px;
+   border: 2px solid #fff;
+}
+
+.cstm-btn-two{
+   background:transparent;
+   font-size: 14px;
+   color: #fff;
+   padding: 7px 32px;
+   border: 1px solid #fff;
+}
+.cstm-btn-three{
+   background:transparent;
+   font-size: 25px;
+   color: #fff;
+   padding: 7px 32px;
+   border: none;
+   font-weight: bolder;
+   font-style: italic;
+   margin-top: 65px;
+   font-family: 'Lobster', cursive;
+}
+
+
+/* Theme css*/
+
+/* header section */
+.nav-head{
+	padding: 0px 38px;
+}
+.nav-link{
+	font-size: 16px;
+	color: #fff!important;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #251F20;
+	color: #fff!important;
+	padding: 7px 18px;
+	border-radius: 10px;
+}
+.nav-head-2{
+  padding: 0px 38px;
+}
+.nav-link-2{
+  font-size: 16px;
+  color: #28282E!important;
+}
+.border{
+  border:  5px solid #dee2e6 !important;
+}
+
+
+/* hero section */
+.hero{
+	background: url(../img/banner.png)no-repeat center top;
+	background-size: cover;
+	padding-bottom: 130px;
+}
+.hero-title{
+	padding-top: 160px;
+	text-align: center;
+	padding-bottom: 160px;
+}
+.hero-content{
+  padding-top: 90px;
+  position: relative;
+}
+.hero-content:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0%;
+  background: rgb(0, 0, 0, 0.2);
+}
+.hero{
+  padding-bottom: 130px;
+}
+.hero-content-2{
+
+}
+.hero-header{
+  padding:30px 0px;
+}
+.hero-header-1{
+  background:#251F2099;
+  padding: 21px 20px;
+  width: 453px;
+}
+.hero-header span{
+  border: 1px solid #fff;
+  display: block;
+  width: 15%;
+  margin-bottom: 35px;
+}
+
+/* banner section */
+.banner{
+	background: #F6F6F6;
+}
+.banner-header{
+}
+.banner-header-1{
+  padding:0px;
+ 
+}
+.banner-img{
+  position: relative;
+}
+.banner-img-1{
+   position: absolute;
+   top:-6%;
+   right:0% ;
+}
+.banner-img-2{
+  position: relative;
+}
+.banner-img-3{
+  position: absolute;
+  top:20%;
+   right:0% ;
+}
+.banner-header span{
+  border: 1px solid #28282E;
+  display: block;
+  width: 15%;
+  margin-bottom: 35px;
+}
+.banner-2{
+  background:#FFFFFF;
+}
+.banner-2a{
+  
+}
+.banner-2b{
+ 
+}
+.banner-4{
+  position: relative;
+}
+.banner-5{
+  position: absolute;
+  right: -10%;
+  top: 7%;
+}
+
+.banner-3{
+  background:#F04838;
+}
+
+
+/* feature section */
+.feature{
+  background: #28282E;
+}
+.feature-header{
+}
+.feature-header-1{
+  padding:0px;
+ 
+}
+.feature-img{
+  padding: 74px;
+  }
+.feature-img-1{
+ 
+ }
+ .feature-header span{
+  border: 1px solid #fff;
+  display: block;
+  width: 15%;
+  margin-bottom: 35px;
+}
+
+/* car-form section*/
+.car-form{
+  background:#F04838;
+}
+.contact-form{
+  color:#fff;
+  font-size: 16px;
+}
+.form-group{
+
+}
+.form-control{
+  display: block;
+  width: 100%;
+  background-color:#FF6153;
+  border:none;
+}
+
+
+/* footer section*/
+footer{
+	background:#F23E2C;
+}
+
+.footer-title{
+	text-align: center;
+	padding: 20px 0px;
+}
+
+/*media query*/
+/* Small devices (portrait tablets and large phones) */
+@media (min-width: 320px) and (max-width: 500px){
+	body{
+
+  }
+  .nav-head {
+    padding: 0px 70px;
+}
+.hero-header-1 {
+    padding: 11px 32px;
+    width: 366px;
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+p {
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+}
+.cstm-btn-one {
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+}
+.hero-header span {
+   margin: 24px auto;
+}
+h3 {
+    font-size: 28px;
+    text-align: center;
+}
+h4 {
+    font-size: 13px;
+    line-height: 27px;
+}
+.banner-img-1 {
+    position: initial;
+    top: 0%;
+    right: 0%;
+}
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+.feature-header span {
+    display: block;
+   margin: 0 auto;
+}
+.cstm-btn-two {
+    display: block;
+    margin: 0 auto;
+}
+.banner-5 {
+    position: absolute;
+    right: 10%;
+    top: 7%;
+}
+
+.h2-cst{
+   font-size: 0px;
+}
+.car-aline{
+  display: block;
+  margin: 0 auto;
+}
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 501px) and (max-width: 769px){
+body{
+
+}
+.hero-header-1 {
+    padding: 15px 20px;
+    width: 400px;
+}
+h1 {
+    font-size: 28px;
+}
+.cstm-btn-one {
+   font-size: 15px;
+}
+h3 {
+    font-size: 26px;
+}
+.banner-header span {
+    margin-bottom: 8px;
+}
+.banner-img-1 {
+    position: initial;
+}
+.cstm-btn-two {
+   font-size: 15px;
+}
+.banner-5 {
+    position: absolute;
+    right: 4%;
+    top: 7%;
+}
+.h2-cst{
+   font-size: 0px;
+}
+.cstm-btn-three {
+    margin-top: 0px;
+}
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 770px) and (max-width: 991px){
+ body{
+
+ }
+ .fa {
+    color: #FAFF00;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 13px;
+    line-height: 23px;
+}
+.banner-img-1 {
+    top: 0%;
+    right: 0%;
+}
+h2 {
+    font-size: 28px;
+    padding: 0px 14px;
+}
+p {
+    font-size: 13px;
+    line-height: 30px;
+}
+.cstm-btn-one {
+  font-size: 17px;
+}
+.cstm-btn-two {
+  font-size: 12px;
+
+}
+.banner-5 {
+    position: absolute;
+    right: -34%;
+    top: 7%;
+}
+.h2-cst{
+   font-size: 0px;
+}
+.cstm-btn-three {
+    margin-top: 0px;
+}
+}
+/* Large devices (laptops/desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body{
+
+  }
+  h1 {
+    font-size: 33px;
+}
+h2 {
+    font-size: 27px;
+}
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 13px;
+    line-height: 22px;
+}
+.banner-header span {
+    margin-bottom: 13px;
+}
+.cstm-btn-two {
+    margin: 0px 29px;
+}
+
+
+  }
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1201px) {
+	
+}
